@@ -5,19 +5,24 @@ Aplikasi ini merupakan aplikasi sederhana yang telah saya bangun menggunakan fra
 
 Demo: http://demo.applants.com/app_percetakan
 
-Login Authentication
-username: anggaindriya
-password: anggaindriya
+<p>Login Authentication <br />
+username: anggaindriya <br />
+password: anggaindriya</p>
 
 Hal yang harus dilakukan setelah mendownload file ini:
+
 1. Extrack file
+
 2. Rename file menjadi "app_percetakan"
+
 3. Pindahkan file ke dalam htdocs (jika menggunakan xampp di windows)
+
 4. Aplikasi sudah siap untuk dijalankan di browser
+
 5. Bila ada kesulitan Anda bisa menghubungi pengembang melalui contact and support
 
 Note: 
 - File database tidak saya sertakan di dalam repository namun saya kirimkan lewat email yang Anda berikan
 
-Contact and Support:
+Contact and Support:<br />
 email: anggaindriya@gmail.com
