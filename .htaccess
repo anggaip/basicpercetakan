@@ -1,0 +1,15 @@
+#RewriteEngine On
+#RewriteRule ^(.*)$ index.php/$1 [PT,L]
+#RewriteBase /
+#RewriteCond %{request_filename} !-f
+#RewriteCond %{request_filename} !-d
+
+#RewriteEngine On
+#RewriteBase /codeigniter_2.2.0/
+#RewriteCond %{REQUEST_FILENAME} !-f
+#RewriteCond %{REQUEST_FILENAME} !-d
+#RewriteRule ^(.*)$ /codeigniter_2.2.0/index.php/$1 [L]
+
+RewriteEngine On
+RewriteCond $1 !^(index\.php|asset|robots\.txt)
+RewriteRule ^(.*)$ /app_percetakan/index.php/$1 [L]
